@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'GVDatePicker_Example', :exclusive => true do
+  pod "GVDatePicker", :path => "../"
+end
+
+target 'GVDatePicker_Tests', :exclusive => true do
+  pod "GVDatePicker", :path => "../"
+
+  
+end

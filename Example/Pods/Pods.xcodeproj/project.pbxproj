@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D8A279C963E4A3255744E53BF9B78D /* CustomDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF107F0EF0868AFEFC258EC7E579990 /* CustomDatePicker.m */; };
+		176E27A560655D113C307161BE77A8B4 /* GVDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B31184073B7CF029E283D9DB920A96 /* GVDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		245DB93DF091876D01C61E9BB5E67E6D /* GVDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECAA0E655F2B98ADE89D126D53BE05B /* GVDatePicker-dummy.m */; };
+		3A871EC443673C29562654690325E20A /* Pods-GVDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D55FE2EA6911BC77DC0135B19A2149 /* Pods-GVDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E178FD8E9DB56E1D890132A7108615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		64FB10F7316E68A03AE3CCB9B461A0A2 /* Pods-GVDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B514B3E560B39EBEB59BE65BD21AAF4 /* Pods-GVDatePicker_Tests-dummy.m */; };
+		6A67432DA76DBC0B26BECBC6AC65DC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7E6BD5570A5AED893D8BD60996EE36B5 /* CustomDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 192BB55BEA563C6E77766C40FBA99633 /* CustomDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F633E8F449D0D83FE294319A26A1706 /* Pods-GVDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 664942EE5FCCF38D00660121E4A15A5E /* Pods-GVDatePicker_Example-dummy.m */; };
+		C62F8F773B9AAB4E40834FFB558A1435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CB58C4FB776A72F87BA142A1EE3E7696 /* GVDatePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40661D14F94EA2E7CA0674BAC866B2B3 /* GVDatePicker.bundle */; };
+		FE2840E7F4D5D54A51699AFC50601C18 /* Pods-GVDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702BC676B31B4BBAB90859877281383 /* Pods-GVDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B5E07CFEDD399294AC3AF817B62FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF190A18075F25D647B80CE103DC79E;
+			remoteInfo = GVDatePicker;
+		};
+		7C66810D7C138B8C4BCF6AF9A9058BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF190A18075F25D647B80CE103DC79E;
+			remoteInfo = GVDatePicker;
+		};
+		8B455188480C50604D4B13AD1B22F475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43CDBCC9C277334A4F62C7F8C7CB1122;
+			remoteInfo = "GVDatePicker-GVDatePicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F393EE78F9EE12C4AD4304EC8939B56 /* Pods_GVDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GVDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141F98031171E3D858545E28DAD2EEE6 /* Pods-GVDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GVDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		192BB55BEA563C6E77766C40FBA99633 /* CustomDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomDatePicker.h; sourceTree = "<group>"; };
+		1CDAD7BBFF47340604E4DD641289971E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3702BC676B31B4BBAB90859877281383 /* Pods-GVDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GVDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3B514B3E560B39EBEB59BE65BD21AAF4 /* Pods-GVDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GVDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40661D14F94EA2E7CA0674BAC866B2B3 /* GVDatePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GVDatePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		501CBBA46427A1BBA58374A85807657D /* Pods-GVDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GVDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		517DB4EF07EF6C81D260A08FC56CCB98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B31184073B7CF029E283D9DB920A96 /* GVDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GVDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		54A46B1C32808ED5F266ACA55AD2AF04 /* Pods-GVDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GVDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BF5B1EA00905F3D2B8BEBB00EC88ED8 /* Pods_GVDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GVDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664942EE5FCCF38D00660121E4A15A5E /* Pods-GVDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GVDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		676B5F75D9154D7EA86FFEFA49249D18 /* Pods-GVDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GVDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		70BF5A985AA0BE9E8925C1999B0B446C /* Pods-GVDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GVDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		7ECAA0E655F2B98ADE89D126D53BE05B /* GVDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GVDatePicker-dummy.m"; sourceTree = "<group>"; };
+		8EC44F0608F6A4E15C9255BA49D81E27 /* Pods-GVDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GVDatePicker_Example.modulemap"; sourceTree = "<group>"; };
+		90D55FE2EA6911BC77DC0135B19A2149 /* Pods-GVDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GVDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		97E3976C5A6A9610F0ECFF52E90504B5 /* Pods-GVDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GVDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD5CEB3A0E3CE6D6F76A98B5CA96E3F4 /* Pods-GVDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GVDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		B66F10BFED73CF4084C861AB677986E4 /* Pods-GVDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GVDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF94492336F82115A84416CB5AA5E10B /* GVDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GVDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		C24226D58680292BC38739293FA8A958 /* GVDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GVDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4650CA60A5F9F924FD93B011BFD2625 /* Pods-GVDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GVDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C517E97477E9DA9C19B87BBB9487FF35 /* Pods-GVDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GVDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C8DFCDD7C1CE052950545D46C680CC40 /* Pods-GVDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GVDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D07A4F29A507546A494E129E244ADBCF /* Pods-GVDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GVDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE98068DAFB43F1FB232389F3B77FF25 /* Pods-GVDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GVDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5F4B4B913F3C047B98488F05E2DDD87 /* GVDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GVDatePicker.xcconfig; sourceTree = "<group>"; };
+		EAF107F0EF0868AFEFC258EC7E579990 /* CustomDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomDatePicker.m; sourceTree = "<group>"; };
+		EDAB15FFCB50F1E5CA726D5B77D60C39 /* GVDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GVDatePicker.modulemap; sourceTree = "<group>"; };
+		F21D3CBD1016B23861C2BE062BAF8321 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EF643DAC0FD3A1C18566A12E6E1F7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A67432DA76DBC0B26BECBC6AC65DC98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EDFA9C36D99912CEBED95CA84A64E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62F8F773B9AAB4E40834FFB558A1435 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BED2428290E5FE878AAC4B0B22337B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E178FD8E9DB56E1D890132A7108615 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E73B4707D8B4C31D78250419715D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1822564304BE7242CAD1330F6EE922 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD54E95CC526AEF3DFF8ECEF586F6409 /* Pods-GVDatePicker_Example */,
+				6595E6E3C309624F37A816DFEF847CE8 /* Pods-GVDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		297F77916599CE30BB8D0C6C41189AB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				192BB55BEA563C6E77766C40FBA99633 /* CustomDatePicker.h */,
+				EAF107F0EF0868AFEFC258EC7E579990 /* CustomDatePicker.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30FEE2013F13E8C9F34FDA3687A06770 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C248FC5147A6CAFF2F44B389DF4A18A /* GVDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		33B1EABE4A6593B958A0EC5D0382DAF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB15FFCB50F1E5CA726D5B77D60C39 /* GVDatePicker.modulemap */,
+				E5F4B4B913F3C047B98488F05E2DDD87 /* GVDatePicker.xcconfig */,
+				7ECAA0E655F2B98ADE89D126D53BE05B /* GVDatePicker-dummy.m */,
+				BF94492336F82115A84416CB5AA5E10B /* GVDatePicker-prefix.pch */,
+				52B31184073B7CF029E283D9DB920A96 /* GVDatePicker-umbrella.h */,
+				F21D3CBD1016B23861C2BE062BAF8321 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GVDatePicker";
+			sourceTree = "<group>";
+		};
+		57535C3AF2A1D4EF3A064C44F376061B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40661D14F94EA2E7CA0674BAC866B2B3 /* GVDatePicker.bundle */,
+				C24226D58680292BC38739293FA8A958 /* GVDatePicker.framework */,
+				0F393EE78F9EE12C4AD4304EC8939B56 /* Pods_GVDatePicker_Example.framework */,
+				5BF5B1EA00905F3D2B8BEBB00EC88ED8 /* Pods_GVDatePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6595E6E3C309624F37A816DFEF847CE8 /* Pods-GVDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CDAD7BBFF47340604E4DD641289971E /* Info.plist */,
+				70BF5A985AA0BE9E8925C1999B0B446C /* Pods-GVDatePicker_Tests.modulemap */,
+				DE98068DAFB43F1FB232389F3B77FF25 /* Pods-GVDatePicker_Tests-acknowledgements.markdown */,
+				B66F10BFED73CF4084C861AB677986E4 /* Pods-GVDatePicker_Tests-acknowledgements.plist */,
+				3B514B3E560B39EBEB59BE65BD21AAF4 /* Pods-GVDatePicker_Tests-dummy.m */,
+				C517E97477E9DA9C19B87BBB9487FF35 /* Pods-GVDatePicker_Tests-frameworks.sh */,
+				676B5F75D9154D7EA86FFEFA49249D18 /* Pods-GVDatePicker_Tests-resources.sh */,
+				3702BC676B31B4BBAB90859877281383 /* Pods-GVDatePicker_Tests-umbrella.h */,
+				D07A4F29A507546A494E129E244ADBCF /* Pods-GVDatePicker_Tests.debug.xcconfig */,
+				97E3976C5A6A9610F0ECFF52E90504B5 /* Pods-GVDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-GVDatePicker_Tests";
+			path = "Target Support Files/Pods-GVDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				30FEE2013F13E8C9F34FDA3687A06770 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				57535C3AF2A1D4EF3A064C44F376061B /* Products */,
+				0C1822564304BE7242CAD1330F6EE922 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C248FC5147A6CAFF2F44B389DF4A18A /* GVDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D83A72F3461D3401DC87FA654ADEC6F2 /* Pod */,
+				33B1EABE4A6593B958A0EC5D0382DAF8 /* Support Files */,
+			);
+			name = GVDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD54E95CC526AEF3DFF8ECEF586F6409 /* Pods-GVDatePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				517DB4EF07EF6C81D260A08FC56CCB98 /* Info.plist */,
+				8EC44F0608F6A4E15C9255BA49D81E27 /* Pods-GVDatePicker_Example.modulemap */,
+				54A46B1C32808ED5F266ACA55AD2AF04 /* Pods-GVDatePicker_Example-acknowledgements.markdown */,
+				501CBBA46427A1BBA58374A85807657D /* Pods-GVDatePicker_Example-acknowledgements.plist */,
+				664942EE5FCCF38D00660121E4A15A5E /* Pods-GVDatePicker_Example-dummy.m */,
+				C8DFCDD7C1CE052950545D46C680CC40 /* Pods-GVDatePicker_Example-frameworks.sh */,
+				AD5CEB3A0E3CE6D6F76A98B5CA96E3F4 /* Pods-GVDatePicker_Example-resources.sh */,
+				90D55FE2EA6911BC77DC0135B19A2149 /* Pods-GVDatePicker_Example-umbrella.h */,
+				C4650CA60A5F9F924FD93B011BFD2625 /* Pods-GVDatePicker_Example.debug.xcconfig */,
+				141F98031171E3D858545E28DAD2EEE6 /* Pods-GVDatePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-GVDatePicker_Example";
+			path = "Target Support Files/Pods-GVDatePicker_Example";
+			sourceTree = "<group>";
+		};
+		D83A72F3461D3401DC87FA654ADEC6F2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				297F77916599CE30BB8D0C6C41189AB8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A6D372F885587D799380F92DBF1B527 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2840E7F4D5D54A51699AFC50601C18 /* Pods-GVDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABE7EF8A659AA442C366B808DC9D41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A871EC443673C29562654690325E20A /* Pods-GVDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D510ADD9CE4049D407915B724B6B715E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6BD5570A5AED893D8BD60996EE36B5 /* CustomDatePicker.h in Headers */,
+				176E27A560655D113C307161BE77A8B4 /* GVDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2737F43BB7897D43255E284049D4115B /* Pods-GVDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31647157CB147FB2D670FA2C8E43F6F /* Build configuration list for PBXNativeTarget "Pods-GVDatePicker_Example" */;
+			buildPhases = (
+				1F8AB7C5EB786EB9FF99516678689CFE /* Sources */,
+				5EF643DAC0FD3A1C18566A12E6E1F7B4 /* Frameworks */,
+				AAABE7EF8A659AA442C366B808DC9D41 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C34AEB24C30D8D9B0AC8707602C207 /* PBXTargetDependency */,
+			);
+			name = "Pods-GVDatePicker_Example";
+			productName = "Pods-GVDatePicker_Example";
+			productReference = 0F393EE78F9EE12C4AD4304EC8939B56 /* Pods_GVDatePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43CDBCC9C277334A4F62C7F8C7CB1122 /* GVDatePicker-GVDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959EA09543A149D5B0A5025E56D4A965 /* Build configuration list for PBXNativeTarget "GVDatePicker-GVDatePicker" */;
+			buildPhases = (
+				F6D21AE2A7C3DDD15CB43B0104DFB0E7 /* Sources */,
+				C6E73B4707D8B4C31D78250419715D11 /* Frameworks */,
+				31088A3C4C7A81728A7F16482543F644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GVDatePicker-GVDatePicker";
+			productName = "GVDatePicker-GVDatePicker";
+			productReference = 40661D14F94EA2E7CA0674BAC866B2B3 /* GVDatePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C95DE8EE3F6FA2019FFA682F67E36514 /* Pods-GVDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861BCE8D246BD7FD2C10BFF76154CE0E /* Build configuration list for PBXNativeTarget "Pods-GVDatePicker_Tests" */;
+			buildPhases = (
+				1C6AFDF75616F6054430298E2245BDB1 /* Sources */,
+				67EDFA9C36D99912CEBED95CA84A64E4 /* Frameworks */,
+				9A6D372F885587D799380F92DBF1B527 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A414CB64E8828B88AD5E27A03A0FC2EC /* PBXTargetDependency */,
+			);
+			name = "Pods-GVDatePicker_Tests";
+			productName = "Pods-GVDatePicker_Tests";
+			productReference = 5BF5B1EA00905F3D2B8BEBB00EC88ED8 /* Pods_GVDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAF190A18075F25D647B80CE103DC79E /* GVDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D793E2C4860D814469F80E866523A77 /* Build configuration list for PBXNativeTarget "GVDatePicker" */;
+			buildPhases = (
+				E06B4443E4AF1042A5610AFF7D0F5297 /* Sources */,
+				6BED2428290E5FE878AAC4B0B22337B6 /* Frameworks */,
+				E0D763EFB2F18768D73AD7109E658B65 /* Resources */,
+				D510ADD9CE4049D407915B724B6B715E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04953B4869C7FBE4B5BEF474496249D9 /* PBXTargetDependency */,
+			);
+			name = GVDatePicker;
+			productName = GVDatePicker;
+			productReference = C24226D58680292BC38739293FA8A958 /* GVDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 57535C3AF2A1D4EF3A064C44F376061B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF190A18075F25D647B80CE103DC79E /* GVDatePicker */,
+				43CDBCC9C277334A4F62C7F8C7CB1122 /* GVDatePicker-GVDatePicker */,
+				2737F43BB7897D43255E284049D4115B /* Pods-GVDatePicker_Example */,
+				C95DE8EE3F6FA2019FFA682F67E36514 /* Pods-GVDatePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31088A3C4C7A81728A7F16482543F644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D763EFB2F18768D73AD7109E658B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB58C4FB776A72F87BA142A1EE3E7696 /* GVDatePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6AFDF75616F6054430298E2245BDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB10F7316E68A03AE3CCB9B461A0A2 /* Pods-GVDatePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8AB7C5EB786EB9FF99516678689CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F633E8F449D0D83FE294319A26A1706 /* Pods-GVDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06B4443E4AF1042A5610AFF7D0F5297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D8A279C963E4A3255744E53BF9B78D /* CustomDatePicker.m in Sources */,
+				245DB93DF091876D01C61E9BB5E67E6D /* GVDatePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D21AE2A7C3DDD15CB43B0104DFB0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04953B4869C7FBE4B5BEF474496249D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GVDatePicker-GVDatePicker";
+			target = 43CDBCC9C277334A4F62C7F8C7CB1122 /* GVDatePicker-GVDatePicker */;
+			targetProxy = 8B455188480C50604D4B13AD1B22F475 /* PBXContainerItemProxy */;
+		};
+		A414CB64E8828B88AD5E27A03A0FC2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GVDatePicker;
+			target = CAF190A18075F25D647B80CE103DC79E /* GVDatePicker */;
+			targetProxy = 45B5E07CFEDD399294AC3AF817B62FF5 /* PBXContainerItemProxy */;
+		};
+		D7C34AEB24C30D8D9B0AC8707602C207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GVDatePicker;
+			target = CAF190A18075F25D647B80CE103DC79E /* GVDatePicker */;
+			targetProxy = 7C66810D7C138B8C4BCF6AF9A9058BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		021ED68BD49E49C6724ABC176793B58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141F98031171E3D858545E28DAD2EEE6 /* Pods-GVDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GVDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GVDatePicker_Example/Pods-GVDatePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GVDatePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F25CDC1CC7C1661E5F39C4B0C3E3075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E3976C5A6A9610F0ECFF52E90504B5 /* Pods-GVDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GVDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GVDatePicker_Tests/Pods-GVDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GVDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		350B54E69A3865A3C70038A0EEFD1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F4B4B913F3C047B98488F05E2DDD87 /* GVDatePicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GVDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		94EC48C2C91744B0F26EFA16ECA1B03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F4B4B913F3C047B98488F05E2DDD87 /* GVDatePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GVDatePicker/GVDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GVDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GVDatePicker/GVDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GVDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C449A4790FF4D9C6B4719954BA08687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F4B4B913F3C047B98488F05E2DDD87 /* GVDatePicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GVDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A10F7BA40FAA06BE1B5026753D8CD91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F4B4B913F3C047B98488F05E2DDD87 /* GVDatePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GVDatePicker/GVDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GVDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GVDatePicker/GVDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GVDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6F43807675591B70ED20E4743485E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07A4F29A507546A494E129E244ADBCF /* Pods-GVDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GVDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GVDatePicker_Tests/Pods-GVDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GVDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC13DD32BAFC8A53EB3E4369DC8C67C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4650CA60A5F9F924FD93B011BFD2625 /* Pods-GVDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GVDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GVDatePicker_Example/Pods-GVDatePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GVDatePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D793E2C4860D814469F80E866523A77 /* Build configuration list for PBXNativeTarget "GVDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EC48C2C91744B0F26EFA16ECA1B03A /* Debug */,
+				A10F7BA40FAA06BE1B5026753D8CD91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861BCE8D246BD7FD2C10BFF76154CE0E /* Build configuration list for PBXNativeTarget "Pods-GVDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F43807675591B70ED20E4743485E3A /* Debug */,
+				1F25CDC1CC7C1661E5F39C4B0C3E3075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959EA09543A149D5B0A5025E56D4A965 /* Build configuration list for PBXNativeTarget "GVDatePicker-GVDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350B54E69A3865A3C70038A0EEFD1885 /* Debug */,
+				9C449A4790FF4D9C6B4719954BA08687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31647157CB147FB2D670FA2C8E43F6F /* Build configuration list for PBXNativeTarget "Pods-GVDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC13DD32BAFC8A53EB3E4369DC8C67C9 /* Debug */,
+				021ED68BD49E49C6724ABC176793B58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
