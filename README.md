@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/GVDatePicker.svg?style=flat)](http://cocoapods.org/pods/GVDatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/GVDatePicker.svg?style=flat)](http://cocoapods.org/pods/GVDatePicker)
 
+## ScreenShoots
+
+![image](http://chuantu.biz/t2/22/1450158358x1822613796.png)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
