@@ -1,5 +1,5 @@
 PODS:
-  - GVDatePicker (0.1.0)
+  - GVDatePicker (0.0.1)
 
 DEPENDENCIES:
   - GVDatePicker (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GVDatePicker: 4979c304f67c46deb31df88285f96b87acf82ab5
+  GVDatePicker: 6cc091762dcbc2c6de06f173445c3ae5dce20fef
 
 COCOAPODS: 0.39.0

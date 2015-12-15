@@ -1,6 +1,6 @@
 {
   "name": "GVDatePicker",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "GVDatePicker 是我常用的一个自定义DatePicker能满足一般最简单的需求",
   "description": "GVDatePicker 是我常用的一个自定义DatePicker能满足平时一般最简单的需求",
   "homepage": "https://github.com/gushaokun/GVDatePicker",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/gushaokun/GVDatePicker.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "7.0"

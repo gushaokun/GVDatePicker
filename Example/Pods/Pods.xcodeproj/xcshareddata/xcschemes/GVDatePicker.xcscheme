@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '41BA0D11ED4FB81C81F05E45'
+               BlueprintIdentifier = '546FD2878C6BE4311207D41C'
                BlueprintName = 'GVDatePicker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'GVDatePicker.framework'>

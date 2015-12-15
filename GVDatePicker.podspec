@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GVDatePicker"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "GVDatePicker 是我常用的一个自定义DatePicker能满足一般最简单的需求"
 
 # This description is used to generate tags and improve search results.

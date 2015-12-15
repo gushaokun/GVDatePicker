@@ -1,6 +1,5 @@
 //
-//  CustomDatePicker.h
-//  Kaoke
+//  GVDatePicker.h
 //
 //  Created by xiaogu on 14-2-12.
 //
@@ -10,7 +9,7 @@
 /**
  *  代理
  */
-@protocol CustomDatePickerDelegate <NSObject>
+@protocol GVDatePickerDelegate <NSObject>
 /**
  *  确定按钮代理方法
  *
@@ -19,8 +18,8 @@
 -(void)changeDateSubmite:(NSDate*)date;
 @end
 
-@interface CustomDatePicker : UIView
-@property (nonatomic,assign) id<CustomDatePickerDelegate> delegate;
+@interface GVDatePicker : UIView
+@property (nonatomic,assign) id<GVDatePickerDelegate> delegate;
 @property (nonatomic,retain) UIColor *toolBarBackgroundColor;
 @property (nonatomic,retain) UIColor *pickerBackgroundColor;
 @property (nonatomic,retain) UIColor *actionButtonColor;
@@ -30,7 +29,7 @@
  *
  *  @return 自定义Picker实例
  */
-+(CustomDatePicker*)pickerForTarget:(id<CustomDatePickerDelegate>)target;
++(GVDatePicker*)pickerForTarget:(id<GVDatePickerDelegate>)target;
 /**
  *  此方法用于弹出显示DatePicker
  */
