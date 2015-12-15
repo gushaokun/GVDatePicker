@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/gushaokun/GVDatePicker"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "http://chuantu.biz/t2/22/1450158358x1822613796.png"
   s.license          = 'MIT'
   s.author           = { "Gavin" => "gushaokun@gmail.com" }
   s.source           = { :git => "https://github.com/gushaokun/GVDatePicker.git", :tag => s.version.to_s }
